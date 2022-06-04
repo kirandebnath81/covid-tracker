@@ -2,8 +2,6 @@ import React from "react";
 
 import "./style/Map.css";
 
-import "leaflet/dist/leaflet.css";
-
 import { MapContainer, TileLayer, useMap } from "react-leaflet";
 
 import showMapCircle from "../../utils/showMapCircle";

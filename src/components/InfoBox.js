@@ -37,10 +37,6 @@ const InfoBox = ({
   isGreen,
   isRed,
 }) => {
-  console.log(isGreen);
-  console.log(isRed);
-  console.log(isBlue);
-
   return (
     <div
       className={`infoBox ${isSmall && "infoBox--small"} `}
