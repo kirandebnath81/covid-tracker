@@ -10,7 +10,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "^10.4.5",
     "axios": "^0.27.2",
     "chart.js": "^3.8.0",
     "chartjs-adapter-luxon": "^1.1.0",

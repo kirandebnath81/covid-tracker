@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 
 import "./style/Main.css";
-import "leaflet/dist/leaflet.css";
 
 //axios
 import axios from "axios";

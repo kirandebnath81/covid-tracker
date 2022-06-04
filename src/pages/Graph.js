@@ -11,9 +11,6 @@ import Box from "@mui/material/Box";
 //chart
 import { Line } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
-// or another adapter to avoid moment
-
-// import { Chart as chartJs } from "chart.js/auto";
 
 import axios from "axios";
 
