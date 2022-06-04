@@ -1,0 +1,94 @@
+.covidTable__img {
+  width: 80px;
+  border-radius: 5px;
+}
+
+.covidTable__heading:not(:first-child) {
+  text-align: right;
+}
+
+.covidTable__cases {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.home__dropdown {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.container__left {
+  flex-basis: 25%;
+}
+.container__right {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.home__vaccine {
+  text-align: center;
+  margin-top: 140px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: rgba(12, 28, 202, 0.05);
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 2rem;
+}
+
+.home__vaccineDose {
+  font-size: 1.8rem;
+  color: rgb(5, 1, 246);
+  font-weight: bold;
+  margin: 0px 8px;
+}
+
+.home__vaccineMark {
+  font-size: 1.5rem;
+  color: rgb(5, 1, 246);
+  font-weight: bold;
+  margin: 0px 5px;
+}
+
+.chart-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container__left {
+    flex: 100%;
+    margin-top: 20px;
+  }
+
+  .container__right {
+    flex-basis: 100%;
+    margin-left: 0px;
+  }
+  .home__vaccine {
+    font-size: 1rem;
+  }
+
+  .home__vaccineDose {
+    font-size: 1.5rem;
+  }
+
+  .home__vaccineMark {
+    font-size: 1.1rem;
+  }
+
+  .chart-container {
+    width: 90vw;
+    margin-top: 70px;
+  }
+}

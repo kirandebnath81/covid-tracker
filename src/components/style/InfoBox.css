@@ -1,0 +1,47 @@
+.infoBox {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.infoBox__container {
+  height: 135px !important;
+}
+
+.infoBox_todayCases {
+  font-size: 1.8rem;
+}
+
+.infoBox__subtitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.infoBox--blue {
+  background-color: rgba(0, 8, 255, 0.2) !important;
+}
+
+.infoBox--green {
+  background-color: rgba(0, 243, 28, 0.2) !important;
+}
+.infoBox--red {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .infoBox_todayCases {
+    font-size: 1.6rem;
+  }
+  .infoBox--small {
+    width: 44%;
+
+    display: inline-block;
+    margin-left: 12px;
+  }
+
+  .infoBox--small h1 {
+    font-size: 1.4rem;
+  }
+  .infoBox__container {
+    height: 125px !important;
+  }
+}
